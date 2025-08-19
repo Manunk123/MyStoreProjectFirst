@@ -58,9 +58,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 			
 			 try {
 			 prop= new Properties();
-		
-			 String propfile= System.getProperty("user.dir")+"src/test/resources/config.properties";
-			 FileInputStream file = new FileInputStream(propfile);
+
+			 FileInputStream file = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\config.properties");
 			 prop.load(file);
 			
 			
