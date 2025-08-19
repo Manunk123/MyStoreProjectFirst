@@ -59,8 +59,10 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 			 try {
 			 prop= new Properties();
 		
-			 FileInputStream file = new FileInputStream("C:\\Users\\manis\\OneDrive\\Documents\\mavenproject\\MyStoreProject1\\configuration\\config.properties");
+			 String propfile= System.getProperty("user.dir")+"src/test/resources/config.properties";
+			 FileInputStream file = new FileInputStream(propfile);
 			 prop.load(file);
+			
 			
 			 }
 			 catch(FileNotFoundException e)

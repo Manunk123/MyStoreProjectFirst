@@ -95,12 +95,7 @@
     <artifactId>slf4j-api</artifactId>
     <version>2.0.17</version>
 </dependency>
- 	<dependency>
- 		<groupId>freecrm.copm</groupId>
- 		<artifactId>crm</artifactId>
- 		<version>0.0.1-SNAPSHOT</version>
- 	</dependency>
-  </dependencies>
+
   
-  
-  </project>
+</dependencies>
+</project>

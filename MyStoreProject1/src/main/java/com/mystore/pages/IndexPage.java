@@ -24,12 +24,7 @@ import com.mystore.baseclass.BaseClass;
 	     @FindBy(xpath="//input[@name='q']")
 	     WebElement searchtxt;
 		  
-	     
-	     @FindBy(xpath="//span[text()='Fashion']")
-	 	WebElement fashionclick;
-	 	
-	      @FindBy (xpath="//span[text()='Sunglasses']")
-	      WebElement sunglasses;
+	    
 	      
 	      By filters= By.xpath("//button[normalize-space()='Filter']//*[name()='svg']");
 	     
